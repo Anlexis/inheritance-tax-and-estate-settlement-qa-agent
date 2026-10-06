@@ -1,0 +1,22 @@
+# Local development artifacts — not part of the distribution; never tracked.
+CLAUDE.md
+security_rules/
+
+# framework.* ships in the installed agenticstar-agentcore SDK; local stub
+# copies and generated manifests are never tracked.
+ci_stubs/
+MANIFEST.md
+
+# Python build / cache artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
